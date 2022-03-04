@@ -1,0 +1,185 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin:0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    display: flex;
+}
+
+li {
+    display: inline;
+    margin: 0 10px;
+}
+
+p {
+    color: #E5E7EB;
+}
+
+li {
+    list-style: none;
+}
+
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+/* main areas */
+
+.header_links {
+    margin-left: auto;
+}
+
+.secondary_text {
+    font-size: 18px;
+}
+
+.top_section {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 0 200px 100px 200px;
+    background-color: #1F2937;
+    flex: 1;
+}
+
+.main_section {
+    display: flex;
+    padding: 70px 0;
+    box-sizing: border-box;
+}
+
+.main_paragraph {
+    margin-top: 0;
+}
+
+.main_hero {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+    margin-bottom: 0;
+}
+
+.main_left {
+    flex: 1;
+}
+.main_right {
+    flex: 1;
+}
+
+
+/* info section */
+
+
+.info {
+    display: flex;
+    justify-content: center;
+    padding: 0 230px 150px 230px;
+}
+
+h2 {
+    text-align: center;
+    margin: 30px;
+    font-weight: heavy;
+    font-size: 36px;
+    justify-self: stretch;
+    
+}
+
+.info_img {
+    border-radius: 25px;
+    border: 5px solid  #3882F6;
+    background-position: left top;
+    padding: 20px;
+    width: 150px;
+    height: auto;
+}
+
+figcaption {
+    color: grey;
+    font-size: 18px;
+    width: 200px;
+    text-align: center;
+}
+
+
+/* Quotes section */
+
+
+.quote_section {
+    display: flex;
+    flex-direction: column;
+    padding: 90px 300px;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: light;
+    color: #1F2937;
+}
+
+.quote_author {
+    margin-left: auto;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
+
+
+
+/* Call to action section */
+
+.call_action_section {
+    display: flex;
+    justify-content: center;
+    padding: 150px;
+}
+
+.bottom_signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 130px;
+    background-color: #3882F6;
+    padding: 35px 100px;
+    border-radius: 12px;
+}
+
+.signup_ad {
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+
+}
+.signup_button {
+    background-color: #3882F6;
+    padding: 10px 40px;
+    color: white;
+    border-radius: 12px;
+}
+.signup_button.bottom_button {
+    color: white;
+    border-color: white;
+    border: solid;
+    font-size: 18px;
+}
+
+.top_button {
+    border: none;
+}
+
+/* footer section */
+
+footer {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    font-size: 20px;
+    padding: 30px 200px;
+}
